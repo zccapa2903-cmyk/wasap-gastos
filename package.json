@@ -1,0 +1,16 @@
+{
+  "name": "wasap-gastos",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para registrar gastos automaticamente con IA en Google Sheets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "twilio": "^5.2.2",
+    "googleapis": "^140.0.1",
+    "node-fetch": "^2.7.0"
+  }
+}
